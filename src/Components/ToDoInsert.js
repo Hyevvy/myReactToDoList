@@ -1,0 +1,15 @@
+import React from 'react';
+import './ToDoInsert.scss';
+import { MdAdd } from 'react-icons/md';
+const ToDoInsert = () => {
+  return (
+    <form className="ToDoInsert">
+      <input placeholder="해야 할 일을 입력하세요" />
+      <button type="submit">
+        <MdAdd />
+      </button>
+    </form>
+  );
+};
+
+export default ToDoInsert;
